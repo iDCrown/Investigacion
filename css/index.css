@@ -1,0 +1,69 @@
+.menu_vertical {
+  background: black;
+  width: 12%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  padding: 1em 2em;
+  float: left;
+}
+.menu_v{
+  padding-top: 44px;
+  height: 25em;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.menu_horizontal {
+  height: 4.8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black
+}
+.subtitle{
+  margin-bottom: 15px;
+  color: #979797;
+}
+.subtitle:hover{
+  margin-bottom: 15px;
+  color: #979797;
+}
+.cuerpo{
+  height: 92vh;
+  background: black;
+  display: flex;
+  padding: 0 1.8em 1.8em;
+}
+.contenedor_principal{
+  width: 100%;
+  background: white;
+  border-radius: 27px;
+}
+.accordion {
+  height: 58px;
+  margin-top: 14px;
+}
+.accordion-button{
+  background: black;
+  padding: 0;
+  color: white !important;
+}
+.acordion_content{
+  background: black;
+  padding: 10px 0 0 1em;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: black;
+  box-shadow: none;
+}
+a{
+  color: white !important;
+}
+.a-libros{
+  color: white;
+}
+

@@ -16,7 +16,7 @@
           <th class="th_color" scope="col">Nombre</th>
           <th class="th_color" scope="col">Correo</th>
           <th class="th_color" scope="col">Telefono</th>
-          <th class="th_color" scope="col">Direccion</th>
+          <th style="padding-right: 11px;" class="th_color" scope="col">Direccion</th>
         </tr>
       </thead>
     </table>

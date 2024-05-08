@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding: 3em 4em 3em;
-  height: 98%;
+  height: 94%;
 }
 .table-warning {
   --bs-table-color: #000;
@@ -35,6 +35,7 @@
 td,
 th{
   align-content: center;
+  width: 3.4em;
 }
 .consultar{
   margin-bottom: 27px;

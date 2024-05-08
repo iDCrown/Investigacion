@@ -7,37 +7,44 @@
   <link rel="stylesheet" href="../css/registroGrupo.css">
 </head>
 <body>
-  <div class="modal fade" id="modalRegistrar"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="modal2"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen-lg-down  modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Registro de investigadores</h1>
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Registro de Grupo de Investigación</h1>
         </div>
         <div class="modal-body">
           <form id="registroGrupoInvestigacion" class="conteiner-modal" method="POST" action="">
-            <div class="first mb-3">
-              <label for="nombre" class="form-labe">Nombre del grupo:</label>
-              <input type="text" class=" for" name="nombre" id="exampleInputPassword1">
+            <div class=" mb-3">
+              <label for="nombre" class="form-labe">Nombre del Investigador:</label>
+              <input type="text" class=" for" name="nombre" id="exampleInputPassword1" required>
             </div>
             <div class="mb-3">
-              <label for="descripcionGrupo" class="form-labe">Descripción del grupo:</label>
-              <textarea id="descripcionGrupo"  name="descripcionGrupo" required></textarea>
+              <label for="areaInvestigacion" class="form-labe">Correo Electronico</label>
+              <input type="email" id="areaInvestigacion" class="for b2"  name="areaInvestigacion" required>
             </div>
             <div class="mb-3">
-              <label for="areaInvestigacion" class="form-labe">Área de investigación:</label>
-              <input type="text" id="areaInvestigacion" class="for b2"  name="areaInvestigacion" required>
+              <label for="miembrosGrupo" class="form-labe">Centro de Trabajo:</label>
+              <input type="text" class=" for" name="nombre" id="exampleInputPassword1" required>
             </div>
-            <div class="mb-3">
-              <label for="miembrosGrupo" class="form-labe">Miembros del grupo:</label>
-              <textarea id="miembrosGrupo" name="miembrosGrupo"  class="for b2"  required placeholder="Lista de nombres de los miembros, separados por comas"></textarea>
-            </div>
-              <div class="mb-3">
-                <label for="fechaCreacion" class="form-labe">Fecha de creación:</label>
-                <input type="date" id="fechaCreacion" class="for b2"  name="fechaCreacion" required>
+            <div class="forml1">
+              <div class="first mb-3">
+                <label for="validationCustom04" class="form-label">Grupo de Investigacion</label>
+                <select class="form-select for" id="validationCustom04" required>
+                  <option selected disabled value="">grupo 1</option>
+                  <option>...</option>
+                </select>
               </div>
-              <div class="modal-footer">
-                <button type="submit" class="btn-brown" name="editarRegistro">Crear Grupo </button>                
+              <div class="check mb-3">
+                <div class="form-check form-switch form-check-reverse">
+                  <label class="form-label form-check-label" for="flexSwitchCheckReverse">Estado</label>
+                  <input class="form-check-input input_check" type="checkbox" id="flexSwitchCheckReverse" required>
+                </div>
               </div>
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn-brown" name="editarRegistro">Registrar </button>                
+            </div>
           </form>
         </div>
       </div>
@@ -46,7 +53,5 @@
 
 <!-- javascript -->
   <script src="../js/scripts.js"></script>
-
-
 </body>
 </html>

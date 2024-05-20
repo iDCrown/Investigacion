@@ -1,5 +1,5 @@
 <?php
-include 'conexion.php';
+include '../php/conexion.php';
 
 
 if(isset($_POST['enviar'])){
@@ -19,11 +19,11 @@ if(isset($_POST['enviar'])){
         $query = "INSERT INTO investigadores( nombre, email, centroInv)VALUES( '$nombre', '$email', '$centroInv')";//agregar al grupo
 
         if(!mysqli_query($con, $query)){
-          die('Error al insertar los datos: ' . mysqli_error($con));
+        die('Error al insertar los datos: ' . mysqli_error($con));
             $error = "Error, no se pudo crear el registro";
         }else{
             $mensaje = "Registro creado correctamente";
-            header('Location: ../pages/index.php?mensaje='.urlencode($mensaje));
+            header('Location: ../pages/index.php?mensaje='.urldecode($mensaje));
             exit();
         }
     }

@@ -14,7 +14,7 @@
           <h1 class="modal-title fs-5" id="exampleModalLabel">Registro de Investigador</h1>
         </div>
         <div class="modal-body">
-          <form id="registroGrupoInvestigacion" class="conteiner-modal" method="POST" action="../php/Investigadores.php">
+          <form id="registroGrupoInvestigacion" class="conteiner-modal" method="POST" action="../php/investigadores.php">
             <div class=" mb-3">
               <label for="nombre" class="form-labe">Nombre del Investigador:</label>
               <input type="text" class=" for" name="nombre" id="exampleInputPassword1" required>
@@ -43,15 +43,14 @@
               </div>
             </div>
             <div class="modal-footer">
-              <button type="enviar" class="btn-brown" name="editarRegistro">Registrar </button>                
+              <button type="submit" class="btn-brown" name="enviar">Registrar </button>                
             </div>
           </form>
         </div>
       </div>
     </div>
   </div>
-
-<!-- javascript -->
+  <!-- javascript -->
   <script src="../js/scripts.js"></script>
 </body>
 </html>

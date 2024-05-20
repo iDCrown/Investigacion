@@ -57,7 +57,7 @@
         <a class="nav-link " id="investigadores" aria-current="page" >Investigador</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Grupo de Investigacion</a>
+        <a class="nav-link" id="Grupos" aria-current = "page">Grupo de Investigacion</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Productos</a>
@@ -81,8 +81,8 @@
       <?php include '../formularios/Registro_Investigadores.php'; ?>
       <!-- Vistas de investigación -->
       <?php include '../vistas/Vistas_investigador.php'; ?>
-      <!-- formulario de producto -->
-
+      <!--Vistas de grupos-->
+      <?php include '../vistas/Vistas_grupo_investigacion.php'; ?>
 
     </div>
   </div>

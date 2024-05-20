@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historial Productos</title>
+  <link rel="stylesheet" href="../css/registroGrupo.css">
+</head>
+<body>
+  <div class="modal fade" id="modalRegistrar"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen-lg-down  modal-lg">
+      <div class="modal-content">
 
 
         <div class="modal-header">

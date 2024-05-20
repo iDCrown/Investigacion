@@ -1,3 +1,19 @@
+body{
+  overflow: hidden;
+}
+h1{
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+p,
+span,
+a,
+button{
+  font-family: "Arsenal", sans-serif;
+  font-weight: 400 !important;
+  font-style: normal;
+}
 .menu_vertical {
   background: black;
   width: 12%;
@@ -17,7 +33,7 @@
 }
 
 .menu_horizontal {
-  height: 4.8em;
+  height: 5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +48,7 @@
   color: #979797;
 }
 .cuerpo{
-  height: 92vh;
+  height: 91.7vh;
   background: black;
   display: flex;
   padding: 0 1.8em 1.8em;
@@ -61,9 +77,41 @@
   box-shadow: none;
 }
 a{
-  color: white !important;
+  color: white ;
+  cursor: pointer;
 }
 .a-libros{
   color: white;
 }
 
+.nav-link:hover,
+.nav_link {
+  color: #ffc108;
+}
+.nav-link,
+.nav-link.active {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  color: white;
+  text-decoration: none;
+  background: 0 0;
+  border: 0;
+  cursor: pointer;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+.activee{
+  color: #ffc108;
+}
+.navbar-brandd{
+  padding-top: var(--bs-navbar-brand-padding-y);
+  padding-bottom: var(--bs-navbar-brand-padding-y);
+  margin-right: var(--bs-navbar-brand-margin-end);
+  font-size: var(--bs-navbar-brand-font-size);
+  color:white;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.nav-link:focus{
+  color:#ffc108 ;
+}

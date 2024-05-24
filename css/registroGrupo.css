@@ -7,8 +7,6 @@
 .content{
   height: 100%;
 }
-
-
 .for {
   height: 45px;
   border: 2px solid black;
@@ -23,9 +21,33 @@
   flex-direction: column;
   text-align: justify;
 }
+.conteiner-formbase{
+  display: flex;
+  text-align: justify;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.btn-yellow{
+  align-self: center;
+  border: 3px solid #fddc4f;
+  height: 2.9em;
+  width: 9.5em;
+  background: transparent;
+  color: #000000;
+  border-radius: 3em;
+  margin-top: 10px;
+}
+.btn-yellow:hover {
+  background: #fddc4f;
+  color:black ;
+  transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
+  transition-duration: 0.5s;
+}
+
 .btn-brown{
   align-self: center;
-  border: 3px solid #fff8e2;
+  border: 3px solid #fddc4f;
   height: 2.9em;
   width: 9.5em;
   background: transparent;
@@ -34,7 +56,7 @@
   margin-top: 10px;
 }
 .btn-brown:hover {
-  background: #fff8e2;
+  background: #fddc4f;
   color:black ;
   transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
   transition-duration: 0.5s;
@@ -43,7 +65,7 @@
   outline: none;
 }
 .for:focus-visible{
-  border: 3px solid #edbf05;
+  border: 2px solid #edbf05;
 }
 
 .form-select:focus,
@@ -52,7 +74,6 @@
   box-shadow: none;
   border: 3px solid #ffc108;
 }
-
 
 .form-check-input:checked {
   background-color: #000;
@@ -89,7 +110,8 @@
   background-color: #ffdc4e;
 }
 .modal-header {
-  margin-bottom: 7px;
+  margin-bottom: 23px;
+  border-bottom: 1.8px solid black;
 }
 textarea {
   border: 2px solid black;

@@ -57,6 +57,7 @@ button{
   width: 100%;
   background: white;
   border-radius: 27px;
+  padding: 3em 9em;
 }
 .accordion {
   height: 58px;

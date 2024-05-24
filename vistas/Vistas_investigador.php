@@ -1,3 +1,4 @@
+<?php include '../php/Vistas_investigador.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,11 +13,9 @@
     <table class="table table_title table-hover">
       <thead class="tablee table-warning table-bordered b3">
         <tr>
-          <th class="th_color" scope="col">Cedula</th>
           <th class="th_color" scope="col">Nombre</th>
-          <th class="th_color" scope="col">Correo</th>
-          <th class="th_color" scope="col">Telefono</th>
-          <th style="padding-right: 10px;" class="th_color" scope="col">Direccion</th>
+          <th class="th_color" scope="col">email</th>
+          <th class="th_color" scope="col">centroInv</th>
         </tr>
       </thead>
     </table>
@@ -26,90 +25,7 @@
       <div id="clientes" style="display: block;">
         <table class="table table-hover">
           <tbody>
-            <tr class="tr-row" style="font-size: smaller">
-              <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-              <td>Otto</td>
-            </tr> 
-            <tr class="tr-row" style="font-size: smaller">
-              <th scope="row">2</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr> 
-            <tr class="tr-row" style="font-size: smaller">
-              <th scope="row">3</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr> 
-            <tr class="tr-row" style="font-size: smaller">
-              <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-              <td>Otto</td>
-            </tr> 
-            <tr class="tr-row" style="font-size: smaller">
-              <th scope="row">2</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr> 
-            <tr class="tr-row" style="font-size: smaller">
-              <th scope="row">3</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr> 
-            <tr class="tr-row" style="font-size: smaller">
-              <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-              <td>Otto</td>
-            </tr> 
-            <tr class="tr-row" style="font-size: smaller">
-              <th scope="row">2</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr> 
-            <tr class="tr-row" style="font-size: smaller">
-              <th scope="row">3</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr> 
-            <tr class="tr-row" style="font-size: smaller">
-              <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-              <td>Otto</td>
-            </tr> 
-            <tr class="tr-row" style="font-size: smaller">
-              <th scope="row">2</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr> 
-            <tr class="tr-row" style="font-size: smaller">
-              <th scope="row">3</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr> 
+          
           </tbody>
         </table>
       </div>

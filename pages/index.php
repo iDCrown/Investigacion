@@ -37,8 +37,8 @@
               <li class="nav-item">
                 <a class="nav-link " aria-current="page" >Articulos</a>
               </li>
-              <li class="nav-item">
-                <span class="nav-link a-libros" aria-current="page" >Libros</span>
+              <li class="nav-item" id="ProductosLbr">
+                <span class="nav-link a-libros" id="ProductosLbr"  aria-current="page" >Libros</span>
               </li>
               <li class="nav-item">
                 <a class="nav-link" >Capitulo de Libros</a>
@@ -57,10 +57,10 @@
         <a class="nav-link " id="investigadores" aria-current="page" >Investigador</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Grupo de Investigacion</a>
+        <a class="nav-link" id="Grupos" aria-current = "page">Grupo de Investigacion</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Productos</a>
+        <a class="nav-link"  id="ProductosLbr" href="#">Productos</a>
       </li>
     </ul>
   </nav>
@@ -69,8 +69,7 @@
   <div class="cuerpo">
     <div class="contenedor_principal">
       <div id="pag_index">
-        <h1>pagina principal</h1>
-        <?php include '../formularios/Registro_Productos.php'; ?>      
+        pagina principal  
       </div>
         
         <!--INCLUDE-->
@@ -81,9 +80,10 @@
       <?php include '../formularios/Registro_Investigadores.php'; ?>
       <!-- Vistas de investigación -->
       <?php include '../vistas/Vistas_investigador.php'; ?>
-      <!-- formulario de producto -->
-
-
+      <!--Vistas de grupos-->
+      <?php include '../vistas/Vistas_grupo_investigacion.php'; ?>
+      <!--Vistas de investigador-->
+      <?php include '../formularios/Registro_Productos.php'; ?>    
     </div>
   </div>
 
